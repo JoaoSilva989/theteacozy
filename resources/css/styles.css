@@ -8,6 +8,9 @@ body {
     margin: 0;
 }
 
+
+/* HEADER */
+
 .header {
    width: 100%;
    height: 69px;
@@ -45,6 +48,8 @@ body {
     color: white;
 }
 
+/* MISSION CONTAINER */
+
 .mission-container {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
     height: 700px;
@@ -59,8 +64,11 @@ body {
     width: 100%;
 }
 
+/* FEATURED CONTAINER (problem inline-flex)*/
+
+
 .teaimgs-container {
-    display: inline;
+    display: inline-flex;
     max-width: 1000px;
     height: auto;
     flex-wrap: wrap;
@@ -72,4 +80,46 @@ body {
     height: 200px;
     width: 300px;
     padding: 10px 10px;
+}
+
+/* LOCATIONS CONTAINER */
+
+.banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+}
+
+/* FOOTER */
+
+.contact-info {
+    height: 200px;
+}
+
+footer {
+    display: block;
+    float: left;
+    padding-left: 20px;
 }
