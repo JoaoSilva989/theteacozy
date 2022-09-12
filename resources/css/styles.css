@@ -69,14 +69,14 @@ body {
 
 .teaimgs-container {
     display: inline-flex;
-    max-width: 1000px;
+    max-width: 60%;
     height: auto;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.teaimgs img {
+.container-imgs img{
     height: 200px;
     width: 300px;
     padding: 10px 10px;
